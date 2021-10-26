@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "an api that accesses the github api",
   "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1"
   }
 }
