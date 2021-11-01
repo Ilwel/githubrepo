@@ -16,6 +16,8 @@ const getUser = async (req, res) => {
       blog: data.blog,
       followers: data.followers,
       following: data.following,
+      repos: data.public_repos,
+      repos_url: data.repos_url
     }
     res.json(response);
 
